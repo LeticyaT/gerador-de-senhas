@@ -1,0 +1,74 @@
+:root {
+  --fundo-texto: #4a4a4a;
+  --branco: #ffffff;
+  --borda: #cccccc;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: var(--branco);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.senha {
+  background-color: var(--fundo-texto);
+  padding: 20px;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.parametro-senha {
+  margin-bottom: 30px;
+}
+
+.parametro-senha__titulo {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.parametro-senha__botao {
+  background-color: var(--fundo-texto);
+  color: var(--branco);
+  border: 2px solid var(--borda);
+  padding: 24px;
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.parametro-senha__texto {
+  border-top: 2px solid var(--borda);
+  border-bottom: 2px solid var(--borda);
+  padding: 24px;
+  margin: 0;
+  font-size: 24px;
+  display: inline-block;
+}
+
+.parametro-senha-checkbox {
+  margin: 10px 0;
+}
+
+label {
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
